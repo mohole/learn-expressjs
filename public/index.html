@@ -1,13 +1,33 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <title>Express</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/stylesheets/style.css">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/Chalarangelo/mini.css/v3.0.1/dist/mini-default.min.css">
+  <title>Learn Express.js</title>
 </head>
-
 <body>
-  <h1>Express</h1>
-  <p>Welcome to Express</p>
-</body>
+  <h1>Learn Express.js landing page</h1>
+  <p>Creating a simple <code>REST API</code> backend in Node.js using the Express.js framework.</p>
+  <hr>
 
+  <h3>Available routes</h3>
+
+  <pre>GET /movies</pre>
+  <p>Return the list with only <code>id</code> and <code>title</code> of all available movies.</p>
+
+  <pre>GET /movies/:id</pre>
+  <p>Return the full data of a specific movie.</p>
+
+  <pre>POST /movies</pre>
+  <p>Create a new entry in the database.</p>
+
+  <pre>PUT /movies/:id</pre>
+  <p>Update the full data of a specific movie.</p>
+
+  <pre>DELETE /movies/:id</pre>
+  <p>Remove an entry from the database.</p>
+</body>
 </html>
